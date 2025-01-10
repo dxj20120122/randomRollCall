@@ -1,3 +1,4 @@
+markdown复制
 ## Language
 
  -  [English](#english)
@@ -71,61 +72,61 @@ Users can import existing CSV files and quickly add multiple names to the list.
 
 #### Method 1: Accessing directly through a browser
 
-1.**Visit the project page**:
-Open the browser and access the [random call webpage]( https://random - roll - call - eta.vercel.app/ ).
+1. **Visit the project page**:
+   Open the browser and access the [random call webpage](https://random-roll-call-eta.vercel.app/).
    
-2.**Download project files**:
- - Click the 'Download' button on the page to download the project file locally.
- - Alternatively, you can also access the GitHub repository( https://github.com/dxj20120122/randomRollCall )Click on "Code" and select "Download ZIP" to download.
+2. **Download project files**:
+   - Click the 'Download' button on the page to download the project file locally.
+   - Alternatively, you can also access the GitHub repository(https://github.com/dxj20120122/randomRollCall) and click on "Code" and select "Download ZIP" to download.
 
-3.**Open the webpage**:
- - Extract the downloaded folder.
- - In the decompressed folder, find the 'index. html' file.
- - Double click the 'index. html' file and open it with a browser to start using it.
+3. **Open the webpage**:
+   - Extract the downloaded folder.
+   - In the decompressed folder, find the 'index.html' file.
+   - Double click the 'index.html' file and open it with a browser to start using it.
 
 ####  Method 2: Use PHPStudy local server
 
-1.**Download and install PHPStudy**:
- - Visit the official website of PHPStudy( https://www.xp.cn/ )Download the latest version of PHPStudy.
- - Choose the appropriate version for installation based on your operating system.
+1. **Download and install PHPStudy**:
+   - Visit the official website of PHPStudy(https://www.xp.cn/) and download the latest version of PHPStudy.
+   - Choose the appropriate version for installation based on your operating system.
 
-2.**Set project folder**:
- - Download this project and unzip it.
- - Place the decompressed folder in the 'WWW' folder under the PHPStudy installation directory. For example:` C:\phpstudy_pro\WWW\randomRollCall`。
+2. **Set project folder**:
+   - Download this project and unzip it.
+   - Place the decompressed folder in the 'WWW' folder under the PHPStudy installation directory. For example:`C:\phpstudy_pro\WWW\randomRollCall`。
 
-3.**Start Nginx or Apache**:
- - Open PHPStudy.
- - Start the Nginx or Apache server.
+3. **Start Nginx or Apache**:
+   - Open PHPStudy.
+   - Start the Nginx or Apache server.
 
-4.**Accessing the webpage**:
- - Open the browser and enter in the address bar` http://127.0.0.1/randomRollCall `And enter the car.
- - You will see the interface of the random roll call webpage and can start using it.
+4. **Accessing the webpage**:
+   - Open the browser and enter in the address bar `http://127.0.0.1/randomRollCall` and press Enter.
+   - You will see the interface of the random roll call webpage and can start using it.
 
 #### Method 3: Deploy using GitHub Pages
 
-1.**Fork Warehouse**:
-Go to the GitHub repository( https://github.com/dxj20120122/randomRollCall )Click the**Fork**button in the upper right corner to copy the repository to your GitHub account.
+1. **Fork Warehouse**:
+   Go to the GitHub repository(https://github.com/dxj20120122/randomRollCall) and click the **Fork** button in the upper right corner to copy the repository to your GitHub account.
 
-2.**Enable GitHub Pages**:
- - Enter the warehouse after your Fork.
- - Click on**Settings**.
- - Select**Pages**from the left menu.
- - In the Source section, select the main branch and click Save.
- - After waiting for a few minutes, GitHub Pages will generate an access link for you.
+2. **Enable GitHub Pages**:
+   - Enter the warehouse after your Fork.
+   - Click on **Settings**.
+   - Select **Pages** from the left menu.
+   - In the Source section, select the main branch and click Save.
+   - After waiting for a few minutes, GitHub Pages will generate an access link for you.
 
-3.**Accessing the webpage**:
- - Use the generated link to access your random roll call webpage.
+3. **Accessing the webpage**:
+   - Use the generated link to access your random roll call webpage.
 
 ### User reviews
 
 >Teacher Li (Middle School Teacher):
->As a teacher, I often need to randomly select students to answer questions. The random roll call webpage makes this process very simple, and children also feel that this method is fair
+>As a teacher, I often need to randomly select students to answer questions. The random roll call webpage makes this process very simple, and children also feel that this method is fair.
 
 >Manager Wang (Company Trainer):
->The use of a random roll call webpage in training activities not only increases interactivity, but also makes participants feel nervous and excited, and the effect is very good
+>The use of a random roll call webpage in training activities not only increases interactivity, but also makes participants feel nervous and excited, and the effect is very good.
 
->* * Student Zhang**(13 years old, student):
->DaiXiaojie's project has shown me the potential of peers, and this webpage is very popular in our class's activities
+>Student Zhang (13 years old, student):
+>DaiXiaojie's project has shown me the potential of peers, and this webpage is very popular in our class's activities.
 
 ### Future Development Plan of the Project
 
@@ -175,8 +176,8 @@ During the development process of this project, I received a lot of help and sup
 
 If you have any questions, suggestions, or projects you would like to collaborate on, you can contact me through the following methods:
 
- -  **GitHub**:  [dxj20120122]( https://github.com/dxj20120122 )
- - Bilibili: [DaiXiaojie's Bilibili homepage]( https://space.bilibili.com/3546711827942289 )
+ -  **GitHub**: [dxj20120122](https://github.com/dxj20120122)
+ - Bilibili: [DaiXiaojie's Bilibili homepage](https://space.bilibili.com/3546711827942289)
  -  **Email**: dxj20120122@outlook.com
 
 ### Support me
@@ -184,16 +185,15 @@ If you have any questions, suggestions, or projects you would like to collaborat
 If you like this project, please consider the following ways to support me:
 
  - Star and Fork:
-Go to the GitHub repository( https://github.com/dxj20120122/randomRollCall )Click on the**Star**and**Fork**buttons in the upper right corner to provide support for this project.
+   Go to the GitHub repository(https://github.com/dxj20120122/randomRollCall) and click on the **Star** and **Fork** buttons in the upper right corner to provide support for this project.
 
  - Follow me:
- - Bilibili: [DaiXiaojie's Bilibili homepage]( https://space.bilibili.com/3546711827942289)
- -  **GitHub**:  [dxj20120122]( https://github.com/dxj20120122 )
+   - Bilibili: [DaiXiaojie's Bilibili homepage](https://space.bilibili.com/3546711827942289)
+   -  **GitHub**: [dxj20120122](https://github.com/dxj20120122)
 
  -  **Contact me**:
-If you have any questions, suggestions, or projects you would like to collaborate on, you can contact me through the following methods:
- -  **Email**: dxj20120122@outlook.com
-
+   If you have any questions, suggestions, or projects you would like to collaborate on, you can contact me through the following methods:
+   -  **Email**: dxj20120122@outlook.com
 
  -  -  - 
 
@@ -264,34 +264,34 @@ If you have any questions, suggestions, or projects you would like to collaborat
 ####  方法一:直接通过浏览器访问
 
 1. **访问项目页面**:
-   打开浏览器,访问 [随机点名网页](https://random-roll-call-eta.vercel.app/) 。
+   打开浏览器,访问 [随机点名网页](https://random-roll-call-eta.vercel.app/)。
    
 2. **下载项目文件**:
-    -  点击页面上的“下载”按钮,将项目文件下载到本地。
-    -  或者,你也可以访问 [GitHub 仓库]( https://github.com/dxj20120122/randomRollCall ) ,点击“Code”然后选择“Download ZIP”进行下载。
+   - 点击页面上的“下载”按钮,将项目文件下载到本地。
+   - 或者,你也可以访问 [GitHub 仓库](https://github.com/dxj20120122/randomRollCall) ,点击“Code”然后选择“Download ZIP”进行下载。
 
 3. **打开网页**:
-    -  解压下载的文件夹。
-    -  在解压后的文件夹中,找到 `index.html` 文件。
-    -  双击 `index.html` 文件,使用浏览器打开即可开始使用。
+   - 解压下载的文件夹。
+   - 在解压后的文件夹中,找到 `index.html` 文件。
+   - 双击 `index.html` 文件,使用浏览器打开即可开始使用。
 
 ####  方法二:使用 PHPStudy 本地服务器
 
 1. **下载并安装 PHPStudy**:
-    -  访问 [PHPStudy 官方网站](https://www.xp.cn/) 下载最新版本的 PHPStudy。
-    -  根据你的操作系统选择合适的版本进行安装。
+   - 访问 [PHPStudy 官方网站](https://www.xp.cn/) 下载最新版本的 PHPStudy。
+   - 根据你的操作系统选择合适的版本进行安装。
 
 2. **设置项目文件夹**:
-    -  下载本项目并解压。
-    -  将解压后的文件夹放置在 PHPStudy 安装目录下的 `WWW` 文件夹中。例如:`C:\phpstudy_pro\WWW\randomRollCall`。
+   - 下载本项目并解压。
+   - 将解压后的文件夹放置在 PHPStudy 安装目录下的 `WWW` 文件夹中。例如:`C:\phpstudy_pro\WWW\randomRollCall`。
 
 3. **启动 Nginx 或 Apache**:
-    -  打开 PHPStudy。
-    -  启动 **Nginx** 或 **Apache** 服务器。
+   - 打开 PHPStudy。
+   - 启动 **Nginx** 或 **Apache** 服务器。
 
 4. **访问网页**:
-    -  打开浏览器,在地址栏输入 `http://127.0.0.1/randomRollCall` 并回车。
-    -  你将看到随机点名网页的界面,可以开始使用。
+   - 打开浏览器,在地址栏输入 `http://127.0.0.1/randomRollCall` 并回车。
+   - 你将看到随机点名网页的界面,可以开始使用。
 
 ####  方法三:使用 GitHub Pages 部署
 
@@ -299,14 +299,14 @@ If you have any questions, suggestions, or projects you would like to collaborat
    前往 [GitHub 仓库](https://github.com/dxj20120122/randomRollCall) ,点击右上角的 **Fork** 按钮,将仓库复制到你的 GitHub 账户下。
 
 2. **启用 GitHub Pages**:
-    -  进入你的 Fork 后的仓库。
-    -  点击 **Settings**(设置)。
-    -  在左侧菜单中选择 **Pages**。
-    -  在 **Source** 部分,选择 `main` 分支,并点击 **Save**。
-    -  等待几分钟后,GitHub Pages 会为你生成一个访问链接。
+   - 进入你的 Fork 后的仓库。
+   - 点击 **Settings**。
+   - 在左侧菜单中选择 **Pages**。
+   - 在 **Source** 部分,选择 `main` 分支,并点击 **Save**。
+   - 等待几分钟后,GitHub Pages 会为你生成一个访问链接。
 
 3. **访问网页**:
-    -  使用生成的链接访问你的随机点名网页。
+   - 使用生成的链接访问你的随机点名网页。
 
 ### 用户评价
 
@@ -376,13 +376,12 @@ If you have any questions, suggestions, or projects you would like to collaborat
 如果你喜欢这个项目,请考虑以下方式支持我:
 
  -  **Star 和 Fork**:
-  前往 [GitHub 仓库](https://github.com/dxj20120122/randomRollCall) ,点击右上角的 **Star** 和 **Fork** 按钮,给予本项目支持。
+   前往 [GitHub 仓库](https://github.com/dxj20120122/randomRollCall) ,点击右上角的 **Star** 和 **Fork** 按钮,给予本项目支持。
 
  -  **关注我**:
    -  **B站**: [DaiXiaojie 的 B站主页](https://space.bilibili.com/3546711827942289)
    -  **GitHub**: [dxj20120122](https://github.com/dxj20120122)
 
  -  **联系我**:
-  如果你有任何问题、建议或想合作的项目,可以通过以下方式联系我:
+   如果你有任何问题、建议或想合作的项目,可以通过以下方式联系我:
    -  **邮箱**: dxj20120122@outlook.com
-
