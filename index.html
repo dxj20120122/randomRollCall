@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>随机点名网页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>随机点名网页</h1>
+        <p>由13岁的开发者 <strong>DaiXiaojie</strong> 制作</p>
+
+        <div class="input-section">
+            <input type="text" id="nameInput" placeholder="输入名字">
+            <button id="addButton">添加</button>
+        </div>
+
+        <div class="list-section">
+            <h2>名单</h2>
+            <ul id="nameList">
+                <!-- 名字列表将在这里显示 -->
+            </ul>
+        </div>
+
+        <div class="controls">
+            <button id="rollButton">随机点名</button>
+            <button id="deleteAllButton">删除所有名字</button>
+            <button id="exportButton">导出名单</button>
+            <button id="importButton">导入名单</button>
+        </div>
+
+        <div class="result-section">
+            <h2>被选中的名字</h2>
+            <div id="result">
+                <!-- 被选中的名字将在这里显示 -->
+            </div>
+        </div>
+
+        <footer>
+            <p>喜欢这个项目？<a href="https://github.com/dxj20120122/randomRollCall" target="_blank">Star</a> 和 <a href="https://github.com/dxj20120122/randomRollCall/fork" target="_blank">Fork</a> 我们的 GitHub 仓库！</p>
+            <p>关注我：<a href="https://space.bilibili.com/3546711827942289" target="_blank">B站</a> | 邮箱：<a href="mailto:dxj20120122@outlook.com">dxj20120122@outlook.com</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
