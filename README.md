@@ -25,15 +25,15 @@ In this fast-paced world, we often need simple yet effective tools to help us be
 
 -Built by young developers: As a 13-year-old developer, I hope to showcase the creativity and programming abilities of the younger generation through this project. I believe that age is not a limit, dreams and passion are the most important.
   
--**Easy to use**: No complex settings required, just open the webpage to start using. Whether you are a technical expert or a beginner, you can easily get started.
+- **Easy to use**: No complex settings required, just open the webpage to start using. Whether you are a technical expert or a beginner, you can easily get started.
 
 -Fairness and impartiality: Every time the "random roll call" button is clicked, the system will randomly select a name from the list to ensure that every participant has an equal chance of being selected.
 
 -Highly customizable: Users can easily add, delete, or edit names in the list to meet the needs of different scenarios.
 
--**Responsive design**: Suitable for various devices, whether it is a computer, tablet, or mobile phone, it can provide a good user experience.
+- **Responsive design**: Suitable for various devices, whether it is a computer, tablet, or mobile phone, it can provide a good user experience.
 
-###Project Background
+### Project Background
 
 During my upbringing, I often saw teachers struggling to choose students to answer questions. Sometimes, the selection process is not fair enough and may make some students feel neglected. So, I had an idea: why not use programming to solve this problem?
 
@@ -51,8 +51,8 @@ Every time the "random roll call" button is clicked, the system will randomly se
 
 ####  3.  Customizable
 
--**Add Name**: Enter a name in the input box and click the "Add" button to add the name to the list.
--**Delete Name**: Click the "Delete" button next to a name in the list to remove it from the list.
+- **Add Name**: Enter a name in the input box and click the "Add" button to add the name to the list.
+- **Delete Name**: Click the "Delete" button next to a name in the list to remove it from the list.
 -Edit Name: Click the "Edit" button next to the name to modify an existing name.
 
 ####  4.  Responsive design
@@ -116,7 +116,7 @@ Go to the GitHub repository( https://github.com/dxj20120122/randomRollCall )Clic
 3.**Accessing the webpage**:
 -Use the generated link to access your random roll call webpage.
 
-###User reviews
+### User reviews
 
 >Teacher Li (Middle School Teacher):
 >As a teacher, I often need to randomly select students to answer questions. The random roll call webpage makes this process very simple, and children also feel that this method is fair
@@ -127,39 +127,39 @@ Go to the GitHub repository( https://github.com/dxj20120122/randomRollCall )Clic
 >* * Student Zhang**(13 years old, student):
 >DaiXiaojie's project has shown me the potential of peers, and this webpage is very popular in our class's activities
 
-###Future Development Plan of the Project
+### Future Development Plan of the Project
 
 As a young developer, I have a long-term plan and vision for this project. Here are some future development plans:
 
 ####  1.  Add more features
 
--**Multi language support**: Supports multiple languages, allowing more users to use them.
--**Custom Theme**: Allow users to choose different themes and color schemes to meet personalized needs.
+- **Multi language support**: Supports multiple languages, allowing more users to use them.
+- **Custom Theme**: Allow users to choose different themes and color schemes to meet personalized needs.
 -Export List: Users can export the list in CSV or other formats for easy saving and sharing.
 -Import List: Users can import existing CSV files and quickly add multiple names to the list.
--**Scheduled roll call**: Set a timer to automatically perform random roll call after a specified time.
+- **Scheduled roll call**: Set a timer to automatically perform random roll call after a specified time.
 
 ####  2.  Enhance user experience
 
 -Animation Effects: Add some interesting animation effects to make the webpage more vivid.
--**Sound Reminder**: Add sound prompts during random roll call to increase interactivity.
+- **Sound Reminder**: Add sound prompts during random roll call to increase interactivity.
 -Real time statistics: Display the number of times names have been called and the remaining number of names in the list.
 
 ####  3.  Community building
 
--**User Feedback**: Establish a user feedback channel to collect user opinions and suggestions.
--**Contributor Guide**: Improve the contributor guide and encourage more developers to participate in the project.
--**Community Forum**: Create a community forum where users can exchange usage experience, ask questions, and provide suggestions.
+- **User Feedback**: Establish a user feedback channel to collect user opinions and suggestions.
+- **Contributor Guide**: Improve the contributor guide and encourage more developers to participate in the project.
+- **Community Forum**: Create a community forum where users can exchange usage experience, ask questions, and provide suggestions.
 
 ####  4.  Technological upgrade
 
--**Performance Optimization**: Further optimize webpage performance, improve loading speed and response speed.
+- **Performance Optimization**: Further optimize webpage performance, improve loading speed and response speed.
 -Security: Strengthen the security of web pages and protect user data.
 -Compatibility: Ensure the compatibility of web pages on different browsers and devices.
 
 ####  5.  Mobile applications
 
--**Develop mobile applications**: Extend the random roll call function to mobile platforms and develop Android and iOS applications.
+- **Develop mobile applications**: Extend the random roll call function to mobile platforms and develop Android and iOS applications.
 -Offline function: Allow users to use the random roll call function even without a network connection.
 
 ### Special thanks
@@ -168,8 +168,8 @@ During the development process of this project, I received a lot of help and sup
 
 -My family: Thank you for their continuous support and encouragement, which has given me the courage to pursue my dreams.
 -My teacher: Thank you for their guidance and assistance during my learning of programming.
--**Open Source Community**: Thank you to all the contributors to the open source project, their efforts have made my development work easier.
--**All Supporters**: Thank you to all the users who have followed and supported this project. Your encouragement is my driving force for progress.
+- **Open Source Community**: Thank you to all the contributors to the open source project, their efforts have made my development work easier.
+- **All Supporters**: Thank you to all the users who have followed and supported this project. Your encouragement is my driving force for progress.
 
 ### Contact Information
 
@@ -177,7 +177,7 @@ If you have any questions, suggestions, or projects you would like to collaborat
 
 - **GitHub**:  [dxj20120122]( https://github.com/dxj20120122 )
 -Bilibili: [DaiXiaojie's Bilibili homepage]( https://space.bilibili.com/3546711827942289 )
--**Email**: dxj20120122@outlook.com
+- **Email**: dxj20120122@outlook.com
 
 ### Support me
 
@@ -190,9 +190,9 @@ Go to the GitHub repository( https://github.com/dxj20120122/randomRollCall )Clic
 -Bilibili: [DaiXiaojie's Bilibili homepage]( https://space.bilibili.com/3546711827942289)
 - **GitHub**:  [dxj20120122]( https://github.com/dxj20120122 )
 
--**Contact me**:
+- **Contact me**:
 If you have any questions, suggestions, or projects you would like to collaborate on, you can contact me through the following methods:
--**Email**: dxj20120122@outlook.com
+- **Email**: dxj20120122@outlook.com
 
 
 ---
