@@ -1,4 +1,4 @@
-## Language
+##语言
 
  -  [English](#english)
  -  [中文](#中文)
@@ -72,7 +72,7 @@ Users can import existing CSV files and quickly add multiple names to the list.
 #### Method 1: Accessing directly through a browser
 
 1. **Visit the project page**:
-   Open the browser and access the [random call webpage](https://random-roll-call-eta.vercel.app/).
+   Open the browser and access the [random call webpage](https://random-roll-call-eta.vercel.app/) or [random call webpage](dxj20120122.github.io/randomRollCall/)
    
 2. **Download project files**:
    - Click the 'Download' button on the page to download the project file locally.
@@ -108,7 +108,7 @@ Users can import existing CSV files and quickly add multiple names to the list.
 
 2. **Enable GitHub Pages**:
    - Enter the warehouse after your Fork.
-   - Click on **Settings**.
+   - Click on **设置**.
    - Select **Pages** from the left menu.
    - In the Source section, select the main branch and click Save.
    - After waiting for a few minutes, GitHub Pages will generate an access link for you.
@@ -263,7 +263,7 @@ If you like this project, please consider the following ways to support me:
 ####  方法一:直接通过浏览器访问
 
 1. **访问项目页面**:
-   打开浏览器,访问 [随机点名网页](https://random-roll-call-eta.vercel.app/)。
+   打开浏览器,访问 [随机点名网页](https://random-roll-call-eta.vercel.app/)或[随机点名网页](dxj20120122.github.io/randomRollCall/)
    
 2. **下载项目文件**:
    - 点击页面上的“下载”按钮,将项目文件下载到本地。
@@ -299,9 +299,9 @@ If you like this project, please consider the following ways to support me:
 
 2. **启用 GitHub Pages**:
    - 进入你的 Fork 后的仓库。
-   - 点击 **Settings**。
+   - 点击 **设置**。
    - 在左侧菜单中选择 **Pages**。
-   - 在 **Source** 部分,选择 `main` 分支,并点击 **Save**。
+   - 在 **Source** 部分,选择 `main` 分支,并点击 **保存**。
    - 等待几分钟后,GitHub Pages 会为你生成一个访问链接。
 
 3. **访问网页**:
