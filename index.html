@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>随机点名网页</title>
@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <h1>随机点名网页</h1>
-        <p>由13岁的开发者 <strong>DaiXiaojie</strong> 制作</p>
+        <!-- <p>由13岁的开发者 <strong>DaiXiaojie</strong> 制作</p> -->
 
         <div class="input-section">
             <input type="text" id="nameInput" placeholder="输入名字">
@@ -23,6 +23,10 @@
         </div>
 
         <div class="controls">
+            <div class="speech-toggle">
+                <input type="checkbox" id="speechToggle">
+                <label for="speechToggle">启用朗读</label>
+            </div>
             <button id="rollButton">随机点名</button>
             <button id="deleteAllButton">删除所有名字</button>
             <button id="exportButton">导出名单</button>
@@ -42,6 +46,18 @@
         </footer>
     </div>
 
+    <div class="language-switcher">
+        <button onclick="switchLanguage('zh-CN')">中文</button>
+        <button onclick="switchLanguage('en-US')">English</button>
+    </div>
+
+    <script src="lang.js"></script>
     <script src="script.js"></script>
+    <script>
+        // 初始化页面语言
+        document.addEventListener('DOMContentLoaded', () => {
+            updatePageLanguage();
+        });
+    </script>
 </body>
 </html>

@@ -1,25 +1,76 @@
 /* styles.css */
 
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.language-switcher button {
+    padding: 8px 16px;
+    background-color: rgba(66, 153, 225, 0.9);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(4px);
+}
+.speech-toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.speech-toggle input[type="checkbox"] {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.speech-toggle label {
+    color: #004d40;
+    cursor: pointer;
+    user-select: none;
+}
+.language-switcher button:hover {
+    background-color: #3182ce;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.3);
+}
+
+button:active {
+    animation: buttonPop 0.3s ease;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e0f7fa;
+    background: linear-gradient(135deg, #f6f9fc 0%, #eef2f7 100%);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #2d3748;
 }
 
 .container {
     background-color: #ffffff;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 500px;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 h1 {
@@ -40,25 +91,43 @@ p {
 
 input[type="text"] {
     flex: 1;
-    padding: 10px;
-    border: 2px solid #00796b;
-    border-radius: 5px;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
     font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+    background-color: #ffffff;
 }
 
 button {
-    padding: 10px 15px;
+    padding: 9px 13px;
     margin-left: 10px;
     border: none;
-    background-color: #00796b;
+    background-color: #4299e1;
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 button:hover {
-    background-color: #004d40;
+    background-color: #3182ce;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.3);
+}
+
+button:active {
+    animation: buttonPop 0.3s ease;
 }
 
 .list-section {
@@ -68,24 +137,47 @@ button:hover {
 ul {
     list-style-type: none;
     padding: 0;
-    max-height: 150px;
+    max-height: 250px;
     overflow-y: auto;
-    border: 2px solid #00796b;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #e0f2f1;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #f8fafc;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e0 #f8fafc;
+}
+
+ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+ul::-webkit-scrollbar-track {
+    background: #f8fafc;
+    border-radius: 3px;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: #cbd5e0;
+    border-radius: 3px;
 }
 
 li {
     background-color: #ffffff;
-    margin-bottom: 5px;
-    padding: 10px;
-    border: 1px solid #00796b;
-    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     animation: fadeInList 0.5s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .controls {
@@ -99,12 +191,16 @@ li {
 }
 
 #result {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    color: #d84315;
-    margin-top: 10px;
-    min-height: 30px;
-    animation: fadeInResult 1s ease-in-out;
+    color: #2b6cb0;
+    margin-top: 16px;
+    min-height: 40px;
+    padding: 16px;
+    background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+    border-radius: 12px;
+    animation: rollAnimation 1s cubic-bezier(0.34, 1.56, 0.64, 1), fadeInResult 1s ease-in-out;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -123,8 +219,16 @@ a:hover {
 
 /* Animations */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { 
+        opacity: 0; 
+        transform: translateY(-30px); 
+        filter: blur(10px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0);
+        filter: blur(0);
+    }
 }
 
 @keyframes fadeInList {
@@ -133,6 +237,22 @@ a:hover {
 }
 
 @keyframes fadeInResult {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    0% { opacity: 0; transform: scale(0.8); }
+    50% { opacity: 0.5; transform: scale(1.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes rollAnimation {
+    0% { transform: translateY(100%); opacity: 0; }
+    20% { transform: translateY(-20%); opacity: 0.8; }
+    40% { transform: translateY(10%); opacity: 0.9; }
+    60% { transform: translateY(-5%); opacity: 1; }
+    80% { transform: translateY(2%); opacity: 1; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes buttonPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
 }
